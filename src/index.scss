@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  background-color: rgba(21, 21, 21, 0.64);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7f6ff;
+  position: relative;
+  padding: 40px 0;
+}
+
+.sc{
+  text-decoration: none;
+  color: black
+}
+
+.wrapper{
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 1080px;
+  z-index: 0;
+}
+
+
+.items{
+  flex: 1;
+  overflow: auto;
+}
+
+.cartItem{
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(222, 222, 222, 0.64);
+  padding: 10px;
+  border-radius:  10px;
+  margin-bottom: 10px;
+}
+
+.desc{
+
+  margin: 0 40px 0 20px;
+
+  p{
+    margin: 0 0 5px;
+  }
+}
+
+.remBtn{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in-out;
+
+  &:hover{
+  opacity: 1;
+  }
+}
+
+.bag{
+  cursor: pointer;
+}
+
+.cartremBtn{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in-out;
+
+  &:hover{
+  opacity: 1;
+  }
+}
+
+.blockbottom{
+  margin: 30px 0 20px;
+
+  .line{
+    opacity: 0.1;
+  }
+}
+
+.grnbtn{
+  position: relative;
+  width: 100%;
+  height: 55px;
+  border-radius: 18px;
+  background: rgb(155, 216, 112);
+  color: white;
+  border:0;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.2s ease-in-out;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  img{
+    width: 20px;
+    position: absolute;
+    right: 40px;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover{
+      right: 30px;
+    }
+  }
+
+  &:hover{
+    background: yellowgreen;
+
+    img{
+      transform: translateX(5px);
+    }
+  }
+
+  &:active{
+    background: rgb(139, 186, 45);
+  }
+}
+
+
+*{
+  font-family: 'Inter', system-ui;
+  outline: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  border-bottom: 1px  #e6e4e4 solid;
+  
+  
+  
+  .headerLeft{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo{
+    border-radius: 40%;
+    }
+
+  h3, p, span{
+    margin: 0;
+    
+  }
+
+  p{
+    opacity: 0.5;
+  }
+ 
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    li{
+      span{
+        position: relative;
+        top: -4px;
+        margin-left: 10px;
+      }
+
+      .faveItems{
+        margin: 0 30px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}
+
+.content{
+  padding: 40px;
+  height: 100vh;
+  
+  h1{
+      margin: 0;
+  }
+
+  h5{
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 400;
+  }
+
+  span{
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: 13px;
+  }
+
+  b{
+    font-size: 13px;
+  }
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  position: relative;
+  width: 200px;
+  border: 1px rgba(227, 227, 227, 0.516) solid;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  margin-bottom: 30px;
+  &:hover{
+    box-shadow: 0px 14px 30px rgba(227, 227, 227, 0.516);
+    transform: translateY(-5px);
+  }
+}
+
+.imgcard{
+  width: 200px;
+  border-radius: 10%;
+}
+
+.plus{
+  position: relative;
+  cursor: pointer;
+  top: 2px;
+  
+}
+
+.btncard{
+  margin: 0;
+  background: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 20%;
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.div{
+  outline: 1px black solid;
+}
+
+.cardtext{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fave{
+  opacity: 0.3;
+  cursor: pointer;
+  
+  img{
+    float: right;
+    padding: 0 5px;
+  }
+  
+
+  &:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.onfave{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.search{
+  border: 0;
+  font-size: 16px;
+}
+
+.search-block{
+  border: 1px rgb(210, 210, 210) solid;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.contentHead{
+  display: flex;
+  align-items: center;
+  margin: 0 0 40px 0;
+  justify-content: space-between;
+}
