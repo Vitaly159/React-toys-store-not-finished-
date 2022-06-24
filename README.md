@@ -1,3 +1,15 @@
+  все товары на сервере:
+  //[
+  // {"id": "1","title": "Мишка с бантиком", "price": "1 999", "imageUrl": "/toy1.png"},
+  // {"id": "2","title": "Розовый мишка", "price": "2 999", "imageUrl": "/toy.jpg"},
+  // {"id": "3","title": "Мишка с бантиком", "price": "2 499", "imageUrl": "/toy2.png"},
+  // {"id": "4","title": "Мишка Love", "price": "1 999", "imageUrl": "/toy3.png"},
+  // {"id": "5","title": "Мишка с бантиком", "price": "1 999", "imageUrl": "/toy1.png"},
+  // {"id": "6","title": "Розовый мишка", "price": "2 999", "imageUrl": "/toy.jpg"},
+  // {"id": "7","title": "Мишка с бантиком", "price": "2 499", "imageUrl": "/toy2.png"},
+  // {"id": "8","title": "Мишка Love", "price": "1 999", "imageUrl": "/toy3.png"}
+  // ];
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
